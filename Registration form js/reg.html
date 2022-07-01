@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reg.css">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <form name="regform" onsubmit="return GEEKFORGEEKS()" id="box">
+
+        <h1>Registration Form</h1>
+        <div class="sec">
+            <label for="text">First-Name:</label>
+            <br>
+            <input type="text" name="fname" placeholder="Enter your First name:">
+            <br>
+            <label for="text" class="right"> Last-Name:</label>
+            <br>
+            <input type="text" name="lname" class="right" placeholder="Enter your Last name:">
+        </div>
+        <div class="sec">
+            <label for="email">E-mail</label>
+            <br>
+            <input type="email" value="" name="email">
+        </div>
+        <div class="sec">
+            <label for="address">Adress</label>
+            <br>
+            <input type="address" value="" name="address">
+        </div>
+        <div class="sec">
+            <label for="number">Enter Number:</label>
+            <br>
+            <input type="number" value="" name="number">
+        </div>
+        <div class="sec">
+            <label for="email">Enter CNIC</label>
+            <br>
+            <input type="number" value="" name="cnic">
+        </div>
+        <div class="sec-2">
+            <label for="text-2">Gender</label>
+            <br>
+            <input type="radio" id="gender" value="male" name="gender">
+            <label for="text">Male</label>
+            <br>
+            <input type="radio" id="gender" value="female" name="gender">
+            <label for="text">Female</label>
+            <br>
+            <input type="radio" id="gender" value="other" name="gender">
+            <label for="text">other</label>
+
+        </div>
+         <div class="sec-3">
+            <label for="text-3">Select Course:</label>
+            <br>
+            <input type="checkbox" id="course" value="Web-Development" name="course">
+            <label for="text">Web-Development</label>
+            <br>
+            <input type="checkbox" id="course" value="Andriod-Development" name="course">
+            <label for="text">Andriod-Development</label>
+            <br>
+            <input type="checkbox" id="course" value="IOS-Development" name="course">
+            <label for="text">IOS-Development</label>
+            <br>
+            <input type="checkbox" id="course" value="React-Development" name="course">
+            <label for="text">React-Development</label>
+            <br>
+            <input type="checkbox" id="course" value="Java-Development" name="course">
+            <label for="text">java-Development</label>
+            <br>
+            <input type="checkbox" id="course" value="Artificial-Intelligence" name="course">
+            <label for="text">Artificial-Intelligence</label>
+
+         </div>
+
+        <br>
+        <div class="btn">
+            <button>Submit</button>
+
+        </div>
+        <br>
+
+
+
+
+    </form>
+
+
+
+    <script src="reg.js"></script>
+</body>
+
+</html>

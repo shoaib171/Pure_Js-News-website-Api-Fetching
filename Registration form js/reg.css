@@ -1,0 +1,90 @@
+body{
+    background-color: rgba(65, 179, 122, 0.493);
+    padding: 0;
+    margin: 0;
+}
+#box{
+    margin:30px auto;
+    background-color: whitesmoke;
+    width: 50%;
+
+}
+#box h1{
+    text-align: center;
+    font-size: 3.5rem;
+    text-decoration: underline;
+    background-color: #ddd;
+}
+
+.sec label{
+    color: green;
+    margin-left: 15px;
+}
+.sec input{
+    width: 94%;
+    height: 25px;
+    outline: none;
+    border-style: none;
+    margin-left: 15px;
+}
+.sec-2 label[for=text-2]{
+    margin-left: 15px;
+    color: green;
+}
+.sec-2 input[type=radio]{
+    margin-left: 15px;
+}
+.sec-3 label[for=text-3]{
+    margin-left: 15px;
+    color: green;
+}
+.sec-3 input[type=checkbox]{
+    margin-left: 15px;
+}
+.btn button{
+    height: 40px;
+    width: 95%;
+    margin-left: 15px;
+    text-align: center;
+    color: green;
+    outline: none;
+    border-style: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-family: 'Balsamiq Sans', cursive;
+
+}
+button:hover{
+    background-color: rgba(65, 179, 122, 0.493);
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    width: 25%;
+    border-radius: 20px;
+}
+
+/* rewrite css code to set media queries for responsive design.*/
+
+@media only screen and (max-width: 580px){
+    #box h1{
+        font-size: 1.8rem;
+        text-align: center;
+        text-decoration: none;
+        background-color: rgb(102, 102, 110);
+        color: white;
+    }
+   .sec input{
+       
+       height: 25%;
+       margin: 0px;
+   }
+   .sec label{
+       margin: 0px;
+   }
+
+
+}
+
+
+

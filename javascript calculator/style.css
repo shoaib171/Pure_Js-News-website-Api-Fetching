@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(105, 82, 53);
+     
+ }
+ .container{
+     border-radius: 30px 110px;
+     margin: auto;
+     width: 50%;
+     background-color: rgba(96, 128, 187, 0.904);
+   
+ }
+ h1{
+     font-size: 3.5rem;
+     text-decoration: underline;
+ }
+ 
+table{
+    margin: auto;
+}
+
+input{
+    margin-left: 90px;
+    border-radius: 15px 35px;
+    border: 5px solid #244624;
+    font-size:34px;
+    height: 65px;
+    width: 456px;
+}
+
+button{
+    border-radius: 20px;
+    font-size: 1.5rem;
+    background: #978fa0;
+    width: 102px;
+    height: 90px;
+    margin: 3px;
+    border-style: none;
+}
+
